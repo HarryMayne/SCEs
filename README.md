@@ -2,6 +2,13 @@
 
 This repo contains the code and data used in the paper *"LLMs Don't Know Their Own Decision Boundaries: The Unreliability of Self-Generated Counterfactual Explanations" (EMNLP 2025)*. The paper explores whether LLMs can generate counterfactual explanations that both flip their own answers (**validity**) while making the smallest possible change to the input (**minimality**).
 
+We do this by evaluating models in tabular data, binary classification tasks. **(A)** First we elicit predictions across the whole input space. This forms a decision boundary.  **(B)** Next, we ask models to provide self-generated counterfactual explanations (SCEs) for their predictions. SCEs are *valid* when they cross the decision boundary (below, red to blue) and are *minimal* if they are close to the dashed instance at the decision boundary. We asked to provide counterfactual explanations, we find the SCEs are tyically valid but far from minimal. **(C)** In a separate continuation from the original predictions, we ask models to provide minimal counterfactual explanations. In the majority of cases, these SCEs fail to cross the decision boundary. There is a trade-off between validity and minimality.
+
+<p align="center">
+  <img src="figures/figure_1.png" alt="figure_1" width="600"/><br/>
+</p>
+
+
 ## Repo layout
 
 ```
