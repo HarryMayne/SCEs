@@ -1,0 +1,58 @@
+# ignore the analysis
+analysis/experiments/*
+analysis/temperature_1/*
+analysis/metacognitive_prompting/*
+analysis/decision_boundary_consistency/*
+
+# keep the .gitkeeps as placeholders
+!analysis/temperature_1/.gitkeep
+!analysis/metacognitive_prompting/.gitkeep
+!analysis/operationalising_distance/.gitkeep
+!analysis/decision_boundary_consistency/.gitkeep
+
+# igore any old results files
+experiments/
+results_temp_1/
+results_temp_0/
+results_logprobs/
+results_reasoning/
+results_robustness/
+results_sensitivity/
+results_distance_functs/
+results_l2_semantic/
+analysis/generate_datasets.ipynb
+analysis/sensitivity_analysis/*
+analysis/prompt_sensitivity/results/
+
+# results file
+!/results/income/llama3_3_70B.json
+results/*
+
+!analysis/sensitivity_analysis/new_prompts.ipynb
+
+# old files
+/src/models_datasets/dataset_viewer.ipynb
+/src/models_datasets/edit_folktexts.ipynb
+/src/models_datasets/occupation_code_to_text.json
+/src/models_datasets/place_of_birth_code_to_text.json
+
+# source scripts
+src/bash/
+scr/distance
+scr/experiments
+
+# legacy
+test/
+backups/
+
+# Environments
+.env
+vllm/
+env_test/
+
+# remove.
+.vscode/
+__pycache__/
+
+# keep as placeholders
+!*/.gitkeep

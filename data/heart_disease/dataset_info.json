@@ -1,0 +1,39 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "AGEP": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "SEX": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "systolic_bp": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "total_cholesterol": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

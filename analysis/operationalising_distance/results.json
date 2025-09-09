@@ -1,0 +1,95 @@
+{
+  "house_prices": {
+    "google/gemma-2-27b-it": {
+      "2": {
+        "accuracy": 50.0,
+        "correct": 5,
+        "total": 10
+      },
+      "4": {
+        "accuracy": 58.13715455475946,
+        "correct": 568,
+        "total": 977
+      }
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-70B": {
+      "4": {
+        "accuracy": 99.7948717948718,
+        "correct": 973,
+        "total": 975
+      }
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+      "4": {
+        "accuracy": 98.65284974093265,
+        "correct": 952,
+        "total": 977
+      }
+    },
+    "meta-llama/Llama-3.3-70B-Instruct": {
+      "4": {
+        "accuracy": 71.92268565615463,
+        "correct": 707,
+        "total": 983
+      }
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "4": {
+        "accuracy": 58.56410256410256,
+        "correct": 571,
+        "total": 975
+      }
+    },
+    "google/gemma-2-9b-it": {
+      "4": {
+        "accuracy": 56.5439672801636,
+        "correct": 553,
+        "total": 978
+      }
+    },
+    "gpt-4o-mini": {
+      "4": {
+        "accuracy": 77.77777777777779,
+        "correct": 7,
+        "total": 9
+      }
+    },
+    "gpt-4.1-2025-04-14": {
+      "4": {
+        "accuracy": 72.2502522704339,
+        "correct": 716,
+        "total": 991
+      }
+    },
+    "o3-2025-04-16": {
+      "4": {
+        "accuracy": 100.0,
+        "correct": 983,
+        "total": 983
+      }
+    },
+    "claude-3-7-sonnet-20250219": {
+      "4": {
+        "accuracy": 70.76142131979695,
+        "correct": 697,
+        "total": 985
+      }
+    }
+  },
+  "income": {
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": {
+      "4": {
+        "accuracy": 99.5987963891675,
+        "correct": 993,
+        "total": 997
+      }
+    },
+    "meta-llama/Llama-3.3-70B-Instruct": {
+      "4": {
+        "accuracy": 67.97583081570997,
+        "correct": 675,
+        "total": 993
+      }
+    }
+  }
+}

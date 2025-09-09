@@ -1,0 +1,39 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "area": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "bedrooms": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "bathrooms": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "floors": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
