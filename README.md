@@ -1,4 +1,6 @@
 # LLMs Don't Know Their Own Decision Boundaries
+*Harry Mayne, Ryan Othniel Kearns, Yushi Yang, Andrew M. Bean, Eoin Delaney, Chris Russell, Adam Mahdi*
+
 
 This repo contains the code and data used in the paper *"LLMs Don't Know Their Own Decision Boundaries: The Unreliability of Self-Generated Counterfactual Explanations" (EMNLP 2025)*. The paper explores whether LLMs can generate counterfactual explanations that both flip their own answers (**validity**) while making the smallest possible change to the input (**minimality**).
 
