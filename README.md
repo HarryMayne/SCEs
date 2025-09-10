@@ -35,7 +35,11 @@ requirements.txt      Python dependencies
    ```bash
    pip install -r requirements.txt
    ```
-2. Generate model predictions and counterfactual:
+2. Create a `.env` at the repo root with any keys you need:
+   - `OPENAI_API_KEY=...` (for OpenAI models)
+   - `ANTHROPIC_API_KEY=...` (for Anthropic models)
+   If you only run local/vLLM models, you can skip this.
+3. Generate model predictions and counterfactual:
    ```bash
    python src/main.py \
        --task_model meta-llama/Meta-Llama-3-8B-Instruct \
@@ -45,12 +49,12 @@ requirements.txt      Python dependencies
        --tensor_parallel_size 1
    ```
    The script uses the model and dataset definitions in `src/models_datasets/` and writes a JSON file to `results/<dataset>/<model>.json`.
-3. Post-process the results and compute distances:
+4. Post-process the results and compute distances:
    ```bash
    python src/postprocessing.py --filepath results/income/llama3_8B.json --dataset income
    ```
-4. Score results using scorer_notebook.ipynb  
-5. (Optional) Overwrite the results file with the aggregate scores (useful if storage constraints):
+5. Score results using scorer_notebook.ipynb  
+6. (Optional) Overwrite the results file with the aggregate scores (useful if storage constraints):
    ```bash
    python src/scorer.py --filepath results/income/llama3_8B.json
    ```

@@ -37,6 +37,9 @@ results/*/*
 
 !analysis/sensitivity_analysis/new_prompts.ipynb
 
+# figures
+figures/2D_vis.ipynb
+
 # old files
 /src/models_datasets/dataset_viewer.ipynb
 /src/models_datasets/edit_folktexts.ipynb
