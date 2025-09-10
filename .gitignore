@@ -1,14 +1,18 @@
 # ignore the analysis
 analysis/experiments/*
 analysis/temperature_1/*
+!analysis/temperature_1/*/
+analysis/temperature_1/*/*
+!analysis/temperature_1/*/llama3_3_70B.json
+!analysis/temperature_1/README.md
 analysis/metacognitive_prompting/*
-analysis/decision_boundary_consistency/*
+!analysis/metacognitive_prompting/*_70B.json
+!analysis/metacognitive_prompting/analysis.ipynb
+!analysis/metacognitive_prompting/README.md
 
 # keep the .gitkeeps as placeholders
 !analysis/temperature_1/.gitkeep
-!analysis/metacognitive_prompting/.gitkeep
 !analysis/operationalising_distance/.gitkeep
-!analysis/decision_boundary_consistency/.gitkeep
 
 # igore any old results files
 experiments/
@@ -21,12 +25,15 @@ results_sensitivity/
 results_distance_functs/
 results_l2_semantic/
 analysis/generate_datasets.ipynb
+!analysis/generate_datasets.ipynb
 analysis/sensitivity_analysis/*
 analysis/prompt_sensitivity/results/
 
-# results file
-!/results/income/llama3_3_70B.json
+# results files
 results/*
+!results/*/
+results/*/*
+!results/*/llama3_3_70B.json
 
 !analysis/sensitivity_analysis/new_prompts.ipynb
 
@@ -56,3 +63,5 @@ __pycache__/
 
 # keep as placeholders
 !*/.gitkeep
+# Override: ignore .gitkeep in metacognitive_prompting
+analysis/metacognitive_prompting/.gitkeep

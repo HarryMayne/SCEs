@@ -14,10 +14,10 @@ We do this by evaluating models in tabular data, binary classification tasks. **
 ## Repo layout
 
 ```
-analysis/            Analysis notebooks and placeholders for additional experiments
+analysis/            Analysis notebooks and additional experiments (Section 4.4 and 4.5 of the paper)
 data/                Local dataset caches
 figures/             Notebooks for figures.
-results/             Example results produced by the pipeline
+results/             Example results produced by the pipeline (only included Llama 3.3 70B for example)
 src/                 Source code for generation, post‑processing and scoring
     distance_matrices/        Pre-computed distance matrices for all datasets
     helper_functions/         Utility modules
@@ -31,7 +31,7 @@ requirements.txt      Python dependencies
 ```
 
 ## Running experiments
-1. Install dependencies (Python 3.12):
+1. Create venv and install dependencies (Python 3.12):
    ```bash
    pip install -r requirements.txt
    ```
@@ -59,4 +59,6 @@ The `run_main_results.sh` script provides a larger set of commands for reproduci
 
 ## Notes
 - The full results are not provided as they are large. These can be generated using the pipeline above.
-- The details of the experiments in analysis will be provided in time.
+
+## Citation
+Coming soon...
