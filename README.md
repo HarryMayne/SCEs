@@ -69,10 +69,10 @@ If you use this work, please cite:
 
 ```bibtex
 @inproceedings{mayne2025llms,
-title={{LLMs} Don't Know Their Own Decision Boundaries: The Unreliability of Self-Generated Counterfactual Explanations},
-author={Harry Mayne and Ryan Othniel Kearns and Yushi Yang and Andrew M. Bean and Eoin D. Delaney and Chris Russell and Adam Mahdi},
-booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
-year={2025},
-url={https://openreview.net/forum?id=mhEjUNFZtU}
+  title={{LLMs} Don't Know Their Own Decision Boundaries: The Unreliability of Self-Generated Counterfactual Explanations},
+  author={Harry Mayne and Ryan Othniel Kearns and Yushi Yang and Andrew M. Bean and Eoin D. Delaney and Chris Russell and Adam Mahdi},
+  booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+  url={https://openreview.net/forum?id=mhEjUNFZtU}
 }
 ```
