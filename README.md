@@ -65,4 +65,14 @@ The `run_main_results.sh` script provides a larger set of commands for reproduci
 - The full results are not provided as they are large. These can be generated using the pipeline above.
 
 ## Citation
-Coming soon...
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{mayne2025llms,
+title={{LLMs} Don't Know Their Own Decision Boundaries: The Unreliability of Self-Generated Counterfactual Explanations},
+author={Harry Mayne and Ryan Othniel Kearns and Yushi Yang and Andrew M. Bean and Eoin D. Delaney and Chris Russell and Adam Mahdi},
+booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+year={2025},
+url={https://openreview.net/forum?id=mhEjUNFZtU}
+}
+```
